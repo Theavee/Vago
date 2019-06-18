@@ -1,0 +1,29 @@
+.object-image{
+    height: 500px;
+    width: 300px;
+    background: url('/Basic_vuejs_punchgame/images/egg.jpeg') center no-repeat;
+    background-size: 80%;
+    margin: 0 auto;
+}
+
+.object-image.brust{
+    background: url('/Basic_vuejs_punchgame/images/egg-punch.jpg') center no-repeat;
+    background-size: 80%;
+    margin: 0 auto;
+}
+
+.object-health{
+    width: 300px;
+    border: 2px solid black;
+    margin: 0 auto 20px auto;
+}
+
+.object-health div{
+    height: 15px;
+    background: crimson;
+}
+
+.object-control{
+    margin: 0 auto;
+    width: 200px;
+}
